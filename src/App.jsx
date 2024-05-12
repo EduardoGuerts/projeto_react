@@ -12,7 +12,7 @@ function App() {
             <div>
                 <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<Formulario />} />
+                    <Route path="/projeto_react" element={<Formulario />} />
                     <Route path="/Login" element={<Login />} />
                     <Route path="/AreaProfessor" element={<AreaProfessor />} />
                     <Route path="/Gabarito" element={<Gabarito />} />
