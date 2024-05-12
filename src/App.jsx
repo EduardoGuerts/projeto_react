@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { HashRoute, Routes, Route } from "react-router-dom";
 import Formulario from "./pages/Formulario";
 import Login from "./pages/Login";
 import AreaProfessor from "./pages/AreaProfessor";
@@ -10,7 +10,7 @@ function App() {
     return(
         <>
             <div>
-                <HashRouter>
+                <HashRoute>
                 <Routes>
                     <Route path="/projeto_react" element={<Formulario />} />
                     <Route path="/Login" element={<Login />} />
@@ -18,7 +18,7 @@ function App() {
                     <Route path="/Gabarito" element={<Gabarito />} />
                     <Route path="/DetalhesAluno/:id" element={<DetalhesAluno />} />
                 </Routes>
-            </HashRouter>
+            </HashRoute>
             </div>
         </>
     )
