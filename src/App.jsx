@@ -10,7 +10,7 @@ function App() {
     return(
         <>
             <div>
-                <BrowserRouter>
+                <HashRoute>
                 <Routes>
                     <Route path="/projeto_react" element={<Formulario />} />
                     <Route path="/Login" element={<Login />} />
@@ -18,7 +18,7 @@ function App() {
                     <Route path="/Gabarito" element={<Gabarito />} />
                     <Route path="/DetalhesAluno/:id" element={<DetalhesAluno />} />
                 </Routes>
-            </BrowserRouter>
+            </HashRoute>
             </div>
         </>
     )
