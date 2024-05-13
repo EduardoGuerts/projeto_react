@@ -10,7 +10,7 @@ function App() {
     return(
         <>
             <div>
-                <BrowserRouter basename="projeto_react">
+                <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Formulario />} />
                     <Route path="/Login" element={<Login />} />
